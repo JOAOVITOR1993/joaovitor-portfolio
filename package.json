@@ -2,7 +2,7 @@
   "name": "kenzie-portfolio-2",
   "private": true,
   "version": "0.0.0",
-  "homepage": "http://joaovitor-portfolio-delta.vercel.app/",
+  "homepage": "joaovitor-portfolio-delta.vercel.app",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
