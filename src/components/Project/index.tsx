@@ -1,3 +1,4 @@
+
 import {
   Project as ProjectWrapper,
   ProjectTitle,
@@ -11,6 +12,8 @@ import { Text } from "@/styles/Text";
 import { useEffect, useState } from "react";
 import { FaGithub, FaShare } from "react-icons/fa";
 import { userData } from "@/utils/userData";
+import { projects } from "../../data/projects.data";
+
 
 interface ReposType {
   id: number;
@@ -40,30 +43,28 @@ export const Project = (): JSX.Element => {
     fetchData();
   }, []);
 
-  console.log(repositories)
-
   return (
     <>
-      {repositories &&
-        repositories?.map?.((repository) => (
-          <ProjectWrapper key={repository.id}>
+      {projects &&
+        projects?.map?.((project) => (
+          <ProjectWrapper key={project.id}>
             <ProjectTitle
               as="h2"
               type="heading3"
               css={{ marginBottom: "$3" }}
               color="grey4"
             >
-              {repository.name}
+              {project.name}
             </ProjectTitle>
 
             <ProjectStack>
               <Text type="body2" color="grey2">
                 Primary Language:
               </Text>
-              {repository.language ? (
+              {project.language ? (
                 <ProjectStackTech>
                   <Text color="grey2" type="body2">
-                    {repository.language}
+                    {project.language}
                   </Text>
                 </ProjectStackTech>
               ) : (
@@ -76,16 +77,17 @@ export const Project = (): JSX.Element => {
             </ProjectStack>
 
             <Text type="body1" color="grey2">
-              {repository.description?.substring(0, 129)}
+              {project.description?.substring(0, 129)}
             </Text>
             <ProjectLinks>
-              <ProjectLink target="_blank" href={repository.html_url}>
+              <ProjectLink target="_blank" href={project.html_url}>
                 <FaGithub /> Ver Código no Github
               </ProjectLink>
-              {repository.homepage && (
+              {project.homepage && (
                 <ProjectLink
                   target="_blank"
-                  href={`${repository.homepage}`}
+                  href={`${project.homepage}`}
+                  // href={`https://${project.homepage}`}
                 >
                   <FaShare /> Ver Página
                 </ProjectLink>
