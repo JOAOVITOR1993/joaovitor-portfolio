@@ -77,7 +77,7 @@ export const Project = (): JSX.Element => {
             </ProjectStack>
 
             <Text type="body1" color="grey2">
-              {project.description?.substring(0, 129)}
+              {project.description && project.description}
             </Text>
             <ProjectLinks>
               <ProjectLink target="_blank" href={project.html_url}>

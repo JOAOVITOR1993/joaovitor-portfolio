@@ -1,6 +1,6 @@
 export const projects = [
   {
-    id: "1",
+    id: 1,
     name: "m1-ecommerce-JOAOVITOR1993",
     language: "JavaScript",
     description: null,
@@ -8,7 +8,7 @@ export const projects = [
     homepage: "https://joaovitor1993.github.io/m1-ecommerce-JOAOVITOR1993/",
   },
   {
-    id: "2",
+    id: 2,
     name: "m1-s2-snapcrackle-JOAOVITOR1993",
     language: "JavaScript",
     description: null,
@@ -16,7 +16,7 @@ export const projects = [
     homepage: null,
   },
   {
-    id: "3",
+    id: 3,
     name: "lista-produtos-m2-sprint-1b-JOAOVITOR1993",
     language: "JavaScript",
     description: null,
@@ -24,7 +24,7 @@ export const projects = [
     homepage: "https://joaovitor1993.github.io/lista-produtos-m2-sprint-1b-JOAOVITOR1993/",
   },
   {
-    id: "4",
+    id: 4,
     name: "webwomen-base-JOAOVITOR1993",
     language: "JavaScript",
     description: null,
@@ -32,7 +32,7 @@ export const projects = [
     homepage: "https://joaovitor1993.github.io/webwomen-base-JOAOVITOR1993/",
   },
   {
-    id: "5",
+    id: 5,
     name: "gitSearchBase-JOAOVITOR1993",
     language: "JavaScript",
     description: null,
@@ -40,7 +40,7 @@ export const projects = [
     homepage: "https://joaovitor1993.github.io/gitSearchBase-JOAOVITOR1993/",
   },
   {
-    id: "6",
+    id: 6,
     name: "open-music-base-JOAOVITOR1993",
     language: "JavaScript",
     description: null,
@@ -48,7 +48,7 @@ export const projects = [
     homepage: "https://joaovitor1993.github.io/open-music-base-JOAOVITOR1993/",
   },
   {
-    id: "7",
+    id: 7,
     name: "control-finance-JOAOVITOR1993",
     language: "JavaScript",
     description: null,
@@ -56,7 +56,7 @@ export const projects = [
     homepage: "https://joaovitor1993.github.io/control-finance-JOAOVITOR1993/",
   },
   {
-    id: "8",
+    id: 8,
     name: "petinfobase-JOAOVITOR1993",
     language: "JavaScript",
     description: null,
@@ -64,7 +64,7 @@ export const projects = [
     homepage: "https://joaovitor1993.github.io/petinfobase-JOAOVITOR1993/",
   },
   {
-    id: "9",
+    id: 9,
     name: "m2-lista-de-clientes-JOAOVITOR1993",
     language: "JavaScript",
     description: null,
@@ -72,7 +72,7 @@ export const projects = [
     homepage: "https://joaovitor1993.github.io/m2-lista-de-clientes-JOAOVITOR1993/",
   },
   {
-    id: "11",
+    id: 11,
     name: "react-nu-kenzie-JOAOVITOR1993",
     language: "JavaScript",
     description: null,
@@ -80,7 +80,7 @@ export const projects = [
     homepage: "http://entrega-nu-kenzie-eta.vercel.app/",
   },
   {
-    id: "12",
+    id: 12,
     name: "react-kenzie-hub-JOAOVITOR1993",
     language: "JavaScript",
     description: null,
@@ -88,7 +88,7 @@ export const projects = [
     homepage: "http://entrega-kenzie-hub-eight.vercel.app/",
   },
   {
-    id: "13",
+    id: 13,
     name: "hamburgueria-JOAOVITOR1993",
     language: "JavaScript",
     description: null,
